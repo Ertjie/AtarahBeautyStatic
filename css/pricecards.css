@@ -1,0 +1,111 @@
+@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+
+h2 {
+    text-align: center;
+    color: #DDBBB1;
+}
+.card-group {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.card-body {
+    background-color: rgba(23,23,23,0.80);
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif !important;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif !important;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.card {
+    height: 500px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin:1em ;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    color: #DDBBB1;
+    border-radius: 10px !important;
+
+}
+.cards3 {
+    width: 65%;
+    margin: auto;
+}
+table {
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif !important;
+    font-weight: 300;
+    width: 90% !important;
+    border-color: #dee2e652 !important;
+    padding: 0;
+    margin: auto;
+    font-size: 18px;
+}
+
+td:nth-child(2) {
+    text-align: right !important;
+}
+
+td {
+    color: #DDBBB1;
+}
+
+.table-book {
+    text-decoration: none;
+    color: #323133 !important;
+    border-width: 0px !important;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif !important;
+    font-weight: bold;
+    text-transform: uppercase !important;
+    background-color: #ddbbb1;
+    padding: 10px 32px 10px 32px !important;
+}
+
+.button-div {
+    margin-bottom: 2em;
+    bottom: 0 !important;
+    transition-property: bottom !important;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1) !important;
+}
+
+    .button-div:hover {
+        bottom: 10px !important;
+    }
+
+.carousel {
+    padding-top: 2em;
+    width: 95%;
+    margin: auto;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(23,23,23,0.80) !important;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}

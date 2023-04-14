@@ -1,0 +1,180 @@
+﻿@media only screen and (max-width: 699px) {
+
+    #header-logo{
+        width:100%;
+    }
+    #bookingContactDetails{
+        margin-top:8em;
+        
+    }
+    .headingBackground {
+        background-image: linear-gradient(180deg,rgba(58,58,58,0.4) 0%,rgba(22,22,22,0.4) 100%),url("../images/home-background2.jpg") !important;
+        background-attachment: local;
+        background-position: left;
+    }
+    
+    .contactInfo {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .contactInfo > div > div {
+        width:100%;
+        margin-left: 0px !important;
+    }
+    h1{
+        font-size:40px;
+        font-weight:600;
+    }
+    .h1-banner {
+        font-size: 40px;
+        font-weight: 600;
+        color: white;
+        text-shadow: 0.08em 0.08em 0em rgb(0 0 0 / 40%);
+        margin-bottom:1em;
+        padding-top:1em;
+    }
+    .banner-logo {
+        height: 120px !important;
+        margin-bottom:2em;
+    }
+    .card {
+        width: 90% !important;
+        margin: auto !important;
+        margin-bottom:2em !important;
+    }
+    .cards3 {
+        width: 90% !important;
+
+    }
+    .aboutus-column > div{
+        margin:auto;
+    }
+    .aboutUs{
+        text-align:center;
+        margin:auto;
+        padding:5px;
+        margin-bottom:1em;
+    }
+    .smollLine{
+        margin:auto;
+        margin-bottom:1em;
+    }
+}
+@media only screen and (min-width: 701px) {
+    .headingBackground {
+        background-image: linear-gradient(180deg,rgba(58,58,58,0.4) 0%,rgba(22,22,22,0.4) 100%),url("../images/home-background2.jpg") !important;
+        background-attachment: local;
+        background-position: left;
+    }
+
+    .contactInfo {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .contactInfo > div > div {
+        margin-left: 0px !important;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .h1-banner {
+        font-size: 40px;
+        font-weight: 600;
+        color: white;
+        text-shadow: 0.08em 0.08em 0em rgb(0 0 0 / 40%);
+        margin-bottom: 1em;
+    }
+    .contactBox {
+    margin: auto;
+    margin-top: 8em;
+    }
+    #header-logo{
+        width:60%;
+    }
+    .banner-logo {
+        height: 100px !important;
+        margin:auto;
+    }
+    .card-group{
+        width:100% !important;
+    }
+    .card {
+        width: 90% !important;
+        margin: auto !important;
+        margin-bottom: 2em !important;
+        margin:5px !important;
+    }
+
+    .cards3 {
+        width: 90% !important;
+    }
+}
+@media only screen and (min-width: 993px) {
+    .aboutus-column {
+        width: 95% !important;
+        margin:auto;
+    }
+    .contactInfo {
+        width: 50%;
+    }
+        #header-logo{
+        width:45%;
+    }
+    .banner-logo {
+        height: 100px !important;
+        margin-bottom: 2em;
+    }
+    
+ }
+@media only screen and (min-width: 1200px) {
+    #header-logo {
+        width: 45%;
+    }
+
+    .banner-logo {
+        height: 150px !important;
+        margin-bottom: 2em;
+    }
+    .headingBackground {
+        background-size: cover;
+    }
+}
+@media only screen and (min-width: 1621px) {
+    .aboutus-column {
+        width:90% !important;
+    }
+    #header-logo {
+        width: 45%;
+    }
+
+    .banner-logo {
+        height: 200px !important;
+        margin-bottom: 2em;
+    }
+    .headingBackground {
+        background-size: cover;
+    }
+    .contactInfo{
+        width:35%;
+    }
+    .card {
+        margin: 1em !important;
+    }
+    
+    .card-group{
+        width:90% !important;
+    }
+    .cards3 {
+        width: 65% !important;
+    }
+
+}
+
+
+
